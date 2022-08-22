@@ -4,7 +4,7 @@
 	--primary-text-color-theme-light: #212121;;
 	--secondary-text-color-theme-light: #757575;
 	--primary-text-color-theme-dark: #FFFFFF;
-	/*--secondary-text-color-theme-dark: #757575;*/
+	--secondary-text-color-theme-dark: rgba(255, 255, 255, 0.6);
 	--primary-background-color: #F5F5F5;
 	--secondary-background-color: #F5F4FA ;
 	--dark-bacrground-color: #2F303A;
