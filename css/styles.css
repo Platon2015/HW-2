@@ -33,25 +33,35 @@ img  {
 	display: block;
 }
 
-.menu-link {
+/* Верхня лінія */
+
+.menu-link{
+font-family: var(--primary-font);
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--primary-text-color);
-} 
+color: var(--primary-text-color-theme-light);
+}
 
-.menu-link:hover {
-	color: var(--accent-color);
+.contact-mail{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
 }
-.menu-link :focus {
-	color: var(--accent-color);
+
+.contact-mail:hover,
+.contact-phone-number:hover{
+color: var(--accent-color);
 }
-.footer-link:hover{
-	color:var(--accent-color);
-}
-.footer-link:focus{
-	color:var(--accent-color);
+
+.contact-mail:focus,
+.contact-phone-number:focus{
+color: var(--accent-color);
 }
 
 .contact-phone-number{
@@ -63,11 +73,62 @@ color: var(--primary-text-color);
 	color: var(--secondary-text-color);
 }
 
-.contact-mail{
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
-	color: var(--secondary-text-color);
+/*.top{
+	position: absolute;
+	width: 1600px;
+	height: 252px;
+	left: 0px;
+	top: 2094px;
+}*/
+
+.menu-link:hover {
+	color: var(--accent-color);
+}
+.menu-link :focus {
+	color: var(--accent-color);
+}
+
+/* Шапка */
+/*.head{
+	position: absolute;
+	width: 1600px;
+	height: 600px;
+	left: 0px;
+	top: 80px;
+	background: var(--primary-text-color-theme-dark);
+	}*/
+
+.word-head{
+font-family: var(--primary-font);
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--primary-text-color-theme-dark);
+}
+
+
+
+/* Особливості */
+
+/* Чим ми займаємося */
+
+/* Наша команда */
+
+/* Підвал */
+
+/* Портфоліо */
+
+
+
+
+
+.footer-link:hover{
+	color:var(--accent-color);
+}
+.footer-link:focus{
+	color:var(--accent-color);
 }
