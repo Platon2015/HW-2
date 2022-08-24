@@ -73,34 +73,21 @@ color: var(--accent-color);
 	color: var(--secondary-text-color);
 }
 
-/*.top{
-	position: absolute;
-	width: 1600px;
-	height: 252px;
-	left: 0px;
-	top: 2094px;
-}*/
-
-.menu-link:hover {
+.menu-link:hover,
+.head-modal-button {
 	color: var(--accent-color);
 }
-.menu-link :focus {
+.menu-link :focus,
+.head-modal-button {
 	color: var(--accent-color);
 }
 
-/* Шапка */
-/*.head{
-	position: absolute;
-	width: 1600px;
-	height: 600px;
-	left: 0px;
-	top: 80px;
-	background: var(--primary-text-color-theme-dark);
-	}*/
-
-.word-head{
+/* Шапка*/
+.head{
+	background-color: var(--primary-text-color-theme-light);
+}
+.first-word{
 font-family: var(--primary-font);
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -110,7 +97,21 @@ text-transform: uppercase;
 color: var(--primary-text-color-theme-dark);
 }
 
-
+.head-modal-button{
+background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family: var(--primary-font);
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--primary-text-color-theme-dark);*/
+}
 
 /* Особливості */
 
