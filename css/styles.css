@@ -34,6 +34,18 @@ img  {
 }
 
 /* Верхня лінія */
+header .page-logo{
+	font-family: var(--primary-font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--accent-color);
+}
+.page-logo span {
+	color: #000000;;
+}
 
 .menu-link{
 font-family: var(--primary-font);
@@ -51,17 +63,7 @@ color: var(--primary-text-color-theme-light);
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--secondary-text-color);
-}
-
-.contact-mail:hover,
-.contact-phone-number:hover{
-color: var(--accent-color);
-}
-
-.contact-mail:focus,
-.contact-phone-number:focus{
-color: var(--accent-color);
+	color: var(--secondary-text-color-theme-light);
 }
 
 .contact-phone-number{
@@ -70,7 +72,17 @@ color: var(--accent-color);
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--secondary-text-color);
+	color: var(--secondary-text-color-theme-light);
+}
+
+.contact-mail:hover,
+.contact-phone-number:hover{
+	color: var(--accent-color);
+}
+
+.contact-mail:focus,
+.contact-phone-number:focus{
+	color: var(--accent-color);
 }
 
 .menu-link:hover,
@@ -87,34 +99,29 @@ color: var(--accent-color);
 	background-color: var(--primary-text-color-theme-light);
 }
 .first-word{
-font-family: var(--primary-font);
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: var(--primary-text-color-theme-dark);
-}
-
-.head-modal-button{
-background: #188CE8;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-font-family: var(--primary-font);
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: var(--primary-text-color-theme-dark);*/
+	font-family: var(--primary-font);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--primary-text-color-theme-dark);
 }
 
 /* Особливості */
-
+.specific-title {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
 /* Чим ми займаємося */
 
 /* Наша команда */
