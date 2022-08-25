@@ -98,18 +98,34 @@ color: var(--primary-text-color-theme-light);
 .head{
 	background-color: var(--primary-text-color-theme-light);
 }
-.first-word{
+
+.head-title{
 	font-family: var(--primary-font);
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 1.36;
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--primary-text-color-theme-dark);
 }
 
+.head-modal-button{
+	background: #188CE8;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	font-family: var(--primary-text-color-theme-dark);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: var(--primary-text-color-theme-dark);
+}
 /* Особливості */
+
 .specific-title {
 	position: absolute;
 	white-space: nowrap;
@@ -122,10 +138,58 @@ color: var(--primary-text-color-theme-light);
 	clip-path: inset(50%);
 	margin: -1px;
 }
+
+.title{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color:var(--primary-text-color-theme-light);
+}
+
+p{
+	font-family: var(--primary-font);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color-theme-light);
+}
 /* Чим ми займаємося */
-
+.description-title{
+	font-family: var(--primary-font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color-theme-light);
+}
 /* Наша команда */
-
+.team-section-title{
+	font-family: var(--primary-text-color-theme-light);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color-theme-light);
+}
+.team-item >h3{
+	font-family: var(--primary-font);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color-theme-light);
+}
 /* Підвал */
 
 /* Портфоліо */
