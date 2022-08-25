@@ -86,10 +86,11 @@ color: var(--primary-text-color-theme-light);
 }
 
 .menu-link:hover,
-.head-modal-button {
+.head-modal-button:hover,
+.menu-link :focus {
 	color: var(--accent-color);
 }
-.menu-link :focus,
+
 .head-modal-button {
 	color: var(--accent-color);
 }
