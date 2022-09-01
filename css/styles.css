@@ -74,12 +74,12 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color-theme-light);
 }
-.contact-mail, 
+.contact-mail:hover,
 .contact-phone-number:hover{
 color: var(--accent-color);
 }
 
-.contact-mail, 
+.contact-mail:focus, 
 .contact-phone-number:focus{
 color: var(--accent-color);
 }
@@ -208,7 +208,37 @@ border-radius: 0px 0px 4px 4px;
 }
 /* Підвал */
 .main-footer{
+text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-mail-link:hover,
+.footer-tel-link:hover{
+color:var(--accent-color);
+}
+
+.footer-link:focus,
+.footer-mail-link:focus,
+.footer-tel-link:focus{
+color:var(--accent-color);
+}
+
+.main-footer{
 background-color: var(--dark-bacrground-color);
+}
+
+.footer-page-logo{
+font-family: var(--primary-font);
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+
+.footer-page-logo span {
+color: #FFFFFF;
 }
 
 .footer-link{
@@ -230,15 +260,43 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
-/*.footer-link,
-.footer-mail-link,
-.footer-tel-link:hover{
-color:var(--accent-color);
+/* Портфоліо */
+.portfolio-main-section{
+background-color: var(--primary-text-color-theme-dark);
+font-family: var(--primary-font);
 }
 
-.footer-link,
-.footer-mail-link,
-.footer-tel-link:focus{
-color:var(--accent-color);
-}*/
-/* Портфоліо */
+.portfolio-modal-button{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color-theme-light);
+}
+
+.portfolio-modal-button:hover,
+.portfolio-modal-button:focus{
+background: var(--accent-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.main-list >h3{
+font-family: var(--primary-font);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color-theme-light);
+}
+.main-list >p{
+font-family: var(--primary-font);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color-theme-light);
+}
