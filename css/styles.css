@@ -9,32 +9,36 @@
 	--secondary-background-color: #F5F4FA ;
 	--dark-bacrground-color: #2F303A;
 	--accent-color:#2196F3;
-	}
-	
-	body { 
+}
+
+body { 
 	background-color: var(--primary-text-color-theme-dark);
 	font-family: var(--primary-font);
-	}
-	
-	button{
+}
+
+button{
 	cursor: pointer;
-	font-family: inherit;
-	}
-	
-	.link	{
+}
+
+.link	{
 	text-decoration: none;
-	} 
-	
-	.list {
+} 
+
+.list {
 	list-style: none;
-	}
-	
-	img  {
+}
+
+img  {
 	display: block;
-	}
-	
-	/* Верхня лінія */
-	.page-logo{
+}
+
+h1,h2,h3,h4,p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Верхня лінія */
+.page-logo{
 	font-family: var(--primary-font);
 	font-style: normal;
 	font-weight: 700;
@@ -42,12 +46,13 @@
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 	color: var(--accent-color);
-	}
-	.page-logo span {
+}
+
+.page-logo span {
 	color: #000000;;
-	}
-	
-	.menu-link{
+}
+
+.menu-link{
 	font-family: var(--primary-font);
 	font-style: normal;
 	font-weight: 500;
@@ -55,46 +60,47 @@
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color-theme-light);
-	}
-	
-	.contact-mail{
+}
+
+.contact-mail{
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--secondary-text-color-theme-light);
-	}
-	
-	.contact-phone-number{
+}
+
+.contact-phone-number{
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--secondary-text-color-theme-light);
-	}
-	.contact-mail:hover,
-	.contact-phone-number:hover{
+}
+
+.contact-mail:hover,
+.contact-phone-number:hover{
 	color: var(--accent-color);
-	}
-	
-	.contact-mail:focus, 
-	.contact-phone-number:focus{
+}
+
+.contact-mail:focus, 
+.contact-phone-number:focus{
 	color: var(--accent-color);
-	}
-	
-	.menu-link:hover,
-	.menu-link:focus {
+}
+
+.menu-link:hover,
+.menu-link:focus {
 	color: var(--accent-color);
-	}
-	
-	/* Шапка*/
-	.head{
+}
+
+/* Шапка*/
+.head{
 	background-color: var(--primary-text-color-theme-light);
-	}
-	
-	.head-title{
+}
+
+.head-title{
 	font-family: var(--primary-font);
 	font-weight: 900;
 	font-size: 44px;
@@ -102,9 +108,9 @@
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--primary-text-color-theme-dark);
-	}
-	
-	.head-modal-button{
+}
+
+.head-modal-button{
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
@@ -112,16 +118,17 @@
 	color: var(--primary-text-color-theme-dark);
 	background-color: var(--accent-color);
 	border-radius: 4px;
-	}
-	
-	.head-modal-button:hover,
-	.head-modal-button:focus {
+}
+
+.head-modal-button:hover,
+.head-modal-button:focus {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	background: #188ce8;
-	}
-	
-	/* Особливості */
-	.specific-title {
+}
+
+/* Особливості */
+
+.specific-title {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
@@ -132,9 +139,9 @@
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	margin: -1px;
-	}
-	
-	.title{
+}
+
+.title{
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -143,9 +150,9 @@
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color:var(--primary-text-color-theme-light);
-	}
-	
-	p{
+}
+
+p{
 	font-family: var(--primary-font);
 	font-style: normal;
 	font-weight: 400;
@@ -153,10 +160,10 @@
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color-theme-light);
-	}
-	
-	/* Чим ми займаємося */
-	.description-title{
+}
+
+/* Чим ми займаємося */
+.description-title{
 	font-family: var(--primary-font);
 	font-style: normal;
 	font-weight: 700;
@@ -165,23 +172,23 @@
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color-theme-light);
-	}
-	
-	/* Наша команда */
-	.team-section{
+}
+
+/* Наша команда */
+.team-section{
 	background-color: var(--secondary-background-color);
-	}
-	
-	.team-section-title{
+}
+
+.team-section-title{
 	font-family: var(--primary-font);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color-theme-light);
-	}
-	
-	.team-item >h3{
+}
+
+.team-item >h3{
 	font-family: var(--primary-font);
 	font-weight: 500;
 	font-size: 16px;
@@ -189,9 +196,9 @@
 	text-align: center;
 	letter-spacing: 0.03em;
 	color:var(--primary-text-color-theme-light);
-	}
-	
-	.team-item p{
+}
+
+.team-item p{
 	font-family: var(--primary-font);
 	font-weight: 400;
 	font-size: 16px;
@@ -199,70 +206,71 @@
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color-theme-light);
-	}
-	
-	.team-item{
+}
+
+.team-item{
 	background: #FFFFFF;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
-	}
-	/* Підвал */
-	.main-footer{
+}
+
+/* Підвал */
+.main-footer{
 	text-decoration: none;
 	background-color: var(--dark-bacrground-color);
-	}
-	
-	.footer-link:hover,
-	.footer-mail-link:hover,
-	.footer-tel-link:hover{
+}
+
+.footer-link:hover,
+.footer-mail-link:hover,
+.footer-tel-link:hover{
 	color:var(--accent-color);
-	}
-	
-	.footer-link:focus,
-	.footer-mail-link:focus,
-	.footer-tel-link:focus{
+}
+
+.footer-link:focus,
+.footer-mail-link:focus,
+.footer-tel-link:focus{
 	color:var(--accent-color);
-	}
-		
-	.footer-page-logo{
+}
+
+.footer-page-logo{
 	font-family: var(--primary-font);
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 	color: var(--accent-color);
-	}
-	
-	.footer-page-logo span {
+}
+
+.footer-page-logo span {
 	color: #FFFFFF;
-	}
-	
-	.footer-link{
+}
+
+.footer-link{
 	font-family: var(--primary-font);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color-theme-dark);
-	}
-	
-	.footer-mail-link,
-	.footer-tel-link{
+}
+
+.footer-mail-link,
+.footer-tel-link{
 	font-family: var(--primary-font);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
-	}
-	
-	/* Портфоліо */
-	.portfolio-main-section{
+}
+
+/* Портфоліо */
+.portfolio-main-section{
 	background-color: var(--primary-text-color-theme-dark);
 	font-family: var(--primary-font);
-	}
-	
-	.portfolio-modal-button{
+}
+
+.portfolio-modal-button{
 	font-family: 'Roboto';
 	font-weight: 500;
 	font-size: 16px;
@@ -270,24 +278,25 @@
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color-theme-light);
-	}
-	
-	.portfolio-modal-button:hover,
-	.portfolio-modal-button:focus{
+}
+
+.portfolio-modal-button:hover,
+.portfolio-modal-button:focus{
 	background: var(--accent-color);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
-	}
-	
-	.main-list h3{
+}
+
+.main-list h3{
 	font-family: var(--primary-font);
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: var(--primary-text-color-theme-light);
-	}
-	.main-list p{
+}
+
+.main-list p{
 	font-family: var(--primary-font);
 	font-style: normal;
 	font-weight: 400;
@@ -295,4 +304,4 @@
 	line-height: 1.88;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color-theme-light);
-	}
+}
