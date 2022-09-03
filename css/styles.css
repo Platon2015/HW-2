@@ -191,7 +191,14 @@ p{
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color-theme-light);
 }
+
 /* Підвал */
+.footer-link:hover{
+	color:var(--accent-color);
+}
+.footer-link:focus{
+	color:var(--accent-color);
+}
 
 /* Портфоліо */
 
@@ -199,9 +206,3 @@ p{
 
 
 
-.footer-link:hover{
-	color:var(--accent-color);
-}
-.footer-link:focus{
-	color:var(--accent-color);
-}
