@@ -209,6 +209,7 @@
 	/* Підвал */
 	.main-footer{
 	text-decoration: none;
+	background-color: var(--dark-bacrground-color);
 	}
 	
 	.footer-link:hover,
@@ -222,14 +223,9 @@
 	.footer-tel-link:focus{
 	color:var(--accent-color);
 	}
-	
-	.main-footer{
-	background-color: var(--dark-bacrground-color);
-	}
-	
+		
 	.footer-page-logo{
 	font-family: var(--primary-font);
-	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -283,7 +279,7 @@
 	border-radius: 4px;
 	}
 	
-	.main-list >h3{
+	.main-list h3{
 	font-family: var(--primary-font);
 	font-weight: 700;
 	font-size: 18px;
@@ -291,7 +287,7 @@
 	letter-spacing: 0.06em;
 	color: var(--primary-text-color-theme-light);
 	}
-	.main-list >p{
+	.main-list p{
 	font-family: var(--primary-font);
 	font-style: normal;
 	font-weight: 400;
