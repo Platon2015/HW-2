@@ -37,6 +37,18 @@ h1,h2,h3,h4,p{
 	margin-bottom: 0;
 }
 
+ol,ul{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.container{
+	width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Верхня лінія */
 .page-logo{
 	font-family: var(--primary-font);
